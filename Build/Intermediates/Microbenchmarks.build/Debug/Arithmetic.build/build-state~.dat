@@ -1,0 +1,326 @@
+TArithmetic
+v6
+r1
+cCheck dependencies
+cCompile /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl
+cCompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/utils.o /Users/sdeka/Documents/Projects/Microbenchmarks/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/mykernel.cl.o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_device.o /Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/main.o /Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_platform.o /Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCreateBitcode /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl i386
+cCreateBitcode /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl x86_64
+cCreateBitcode /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl gpu_32
+cCreateBitcode /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl gpu_64
+cLd /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/Arithmetic normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c000000005369559F000000000000044C
+t1399412127
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005369559F00000000000001DE
+t1399412127
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenCL.framework/OpenCL
+c00000000536955A10000000000012944
+t1399412129
+s76100
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000536955A70000000000000ADC
+t1399412135
+s2780
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.c
+t1408348163
+s5787
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.h
+t1408348163
+s671
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/Arithmetic.LinkFileList
+c0000000053F1B00200000000000002DA
+t1408348162
+s730
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_device.o
+t1408348163
+s58148
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_platform.o
+t1408348163
+s59148
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/main.o
+t1408348163
+s123440
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/mykernel.cl.o
+t1408348163
+s18468
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/utils.o
+t1408348163
+s161892
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/Arithmetic
+t2
+s0
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/OpenCL/mykernel.cl.gpu_32.bc
+t2
+s0
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/OpenCL/mykernel.cl.gpu_64.bc
+t2
+s0
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/OpenCL/mykernel.cl.i386.bc
+t2
+s0
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/OpenCL/mykernel.cl.x86_64.bc
+t2
+s0
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.cpp
+c0000000053F138E700000000000003B8
+t1408317671
+s952
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.cpp
+c0000000053F139BF0000000000000425
+t1408317887
+s1061
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp
+c0000000053F1AFFF0000000000002834
+t1408348159
+s10292
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl
+c0000000053F0631300000000000003A2
+t1408262931
+s930
+
+N/Users/sdeka/Documents/Projects/Microbenchmarks/utils.cpp
+c0000000053F1AB2C000000000000176E
+t1408346924
+s5998
+
+CBuild AST from /Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.cpp
+r0
+
+CBuild AST from /Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.cpp
+r0
+
+CBuild AST from /Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp
+r0
+
+CBuild AST from /Users/sdeka/Documents/Projects/Microbenchmarks/utils.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4d2ccc82e7a1b941^4837d282e7a1b941^---0#1#1#--18"Check dependencies36"DD0C0D2A-6B0C-4DE4-91FA-0D71E47A3BEF-
+
+CCompile /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl
+s430040962.821622
+e430040963.127678
+r1
+xCompile
+x/Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection19"Compile mykernel.cl19"Compile mykernel.cld061d282e7a1b941^3eb32083e7a1b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl0000000000000000^420"Compile mykernel.cl    cd /Users/sdeka/Documents/Projects/Microbenchmarks    /System/Library/Frameworks/OpenCL.framework/Libraries/openclc -x cl -cl-std=CL1.1 -cl-auto-vectorize-enable -gcl-bc-dir OpenCL -emit-gcl /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl -gcl-output-dir /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources36"90AA1E6D-AF48-46FC-B6E3-0070D613622F-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+
+CCompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_device.o /Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s430040963.128806
+e430040963.614098
+r1
+xCompileC
+xBuild/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_device.o
+x/Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.cpp
+d/Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.cpp183"CompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_device.o cl_device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler6e142183e7a1b941^e7369d83e7a1b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.cpp0000000000000000^3192"CompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_device.o cl_device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdeka/Documents/Projects/Microbenchmarks    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sdeka/Documents/Projects/Microbenchmarks/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DPROFILE_RUN=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-generated-files.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-own-target-headers.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-all-target-headers.hmap -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-project-headers.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/x86_64 -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources -F/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -MMD -MT dependencies -MF /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_device.d --serialize-diagnostics /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_device.dia -c /Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.cpp -o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_device.o36"E6663E5F-B87F-41B4-8469-B4212DFC2C4E-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+
+CCompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_platform.o /Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s430040963.129464
+e430040963.585153
+r1
+xCompileC
+xBuild/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_platform.o
+x/Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.cpp
+d/Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.cpp187"CompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_platform.o cl_platform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler76542183e7a1b941^c4cd9583e7a1b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.cpp0000000000000000^3204"CompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_platform.o cl_platform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdeka/Documents/Projects/Microbenchmarks    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sdeka/Documents/Projects/Microbenchmarks/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DPROFILE_RUN=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-generated-files.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-own-target-headers.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-all-target-headers.hmap -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-project-headers.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/x86_64 -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources -F/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -MMD -MT dependencies -MF /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_platform.d --serialize-diagnostics /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_platform.dia -c /Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.cpp -o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_platform.o36"DF4A7079-7D1B-4466-93A2-F67070ABD3B6-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+
+CCompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/main.o /Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s430040963.129113
+e430040963.668827
+r1
+xCompileC
+xBuild/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/main.o
+x/Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp
+d/Users/sdeka/Documents/Projects/Microbenchmarks/utils.h
+d/Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.h
+d/Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.h
+o/Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp:145:10: warning: unused variable 'isInitialized' [-Wunused-variable]
+o    bool isInitialized = initializeOpenCL();
+o         ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp173"CompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/main.o main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere5272183e7a1b941^3f38ab83e7a1b941^-203"/Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp:145:10: warning: unused variable 'isInitialized' [-Wunused-variable]    bool isInitialized = initializeOpenCL();         ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@31"Unused variable 'isInitialized'-430040963#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@63"file:///Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp0000000000000000^144#9#144#9#4269#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@63"file:///Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp0000000000000000^3162"CompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/main.o main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdeka/Documents/Projects/Microbenchmarks    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sdeka/Documents/Projects/Microbenchmarks/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DPROFILE_RUN=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-generated-files.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-own-target-headers.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-all-target-headers.hmap -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-project-headers.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/x86_64 -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources -F/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -MMD -MT dependencies -MF /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/main.dia -c /Users/sdeka/Documents/Projects/Microbenchmarks/main.cpp -o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/main.o36"6585A3E8-A030-4273-8574-D49C2AD3B264-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+
+CCompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/mykernel.cl.o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430040963.128547
+e430040963.299676
+r1
+xCompileC
+xBuild/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/mykernel.cl.o
+x/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.c
+d/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.c263"CompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/mykernel.cl.o Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler01fb2083e7a1b941^17b84c83e7a1b941^---0#0#1#-19%DVTDocumentLocation2@148"file:///Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.c0000000000000000^3212"CompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/mykernel.cl.o Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdeka/Documents/Projects/Microbenchmarks    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/sdeka/Documents/Projects/Microbenchmarks/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DPROFILE_RUN=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-generated-files.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-own-target-headers.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-all-target-headers.hmap -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-project-headers.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/x86_64 -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources -F/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -MMD -MT dependencies -MF /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/mykernel.cl.d --serialize-diagnostics /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/mykernel.cl.dia -c /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/mykernel.cl.c -o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/mykernel.cl.o36"AF29B038-1131-4B25-AD13-376E82944B31-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+
+CCompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/utils.o /Users/sdeka/Documents/Projects/Microbenchmarks/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s430040963.128324
+e430040963.693840
+r1
+xCompileC
+xBuild/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/utils.o
+x/Users/sdeka/Documents/Projects/Microbenchmarks/utils.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sdeka/Documents/Projects/Microbenchmarks/utils.cpp
+d/Users/sdeka/Documents/Projects/Microbenchmarks/utils.h
+d/Users/sdeka/Documents/Projects/Microbenchmarks/cl_platform.h
+d/Users/sdeka/Documents/Projects/Microbenchmarks/cl_device.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/sdeka/Documents/Projects/Microbenchmarks/utils.cpp175"CompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/utils.o utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler52f02083e7a1b941^0ea2b183e7a1b941^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/sdeka/Documents/Projects/Microbenchmarks/utils.cpp0000000000000000^3168"CompileC Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/utils.o utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdeka/Documents/Projects/Microbenchmarks    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sdeka/Documents/Projects/Microbenchmarks/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DPROFILE_RUN=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-generated-files.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-own-target-headers.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-all-target-headers.hmap -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-project-headers.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/x86_64 -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources -F/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -MMD -MT dependencies -MF /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/utils.d --serialize-diagnostics /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/utils.dia -c /Users/sdeka/Documents/Projects/Microbenchmarks/utils.cpp -o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/utils.o36"6BD6B824-621E-4746-AA19-EEC31D40AD55-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+
+CCreateBitcode /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl gpu_32
+s430040963.131186
+e430040963.426214
+r1
+xCreateBitcode
+x/Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl
+xgpu_32
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"CreateBitcode mykernel.cl gpu_3232"CreateBitcode mykernel.cl gpu_3201a52183e7a1b941^691d6d83e7a1b941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/sdeka/Documents/Projects/Microbenchmarks/gpu_3200348c7dddffdf42^1498"CreateBitcode mykernel.cl gpu_32    cd /Users/sdeka/Documents/Projects/Microbenchmarks    /System/Library/Frameworks/OpenCL.framework/Libraries/openclc -x cl -cl-std=CL1.1 -Os -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-generated-files-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-own-target-headers-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-all-target-headers-txt.hmap -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-project-headers-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/x86_64 -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources -F/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -arch gpu_32 -emit-llvm -c /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl -o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/OpenCL/mykernel.cl.gpu_32.bc36"DAEB3810-7D13-45E3-8F05-F7F706B41A37-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+
+CCreateBitcode /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl gpu_64
+s430040963.299980
+e430040963.555529
+r1
+xCreateBitcode
+x/Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl
+xgpu_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"CreateBitcode mykernel.cl gpu_6432"CreateBitcode mykernel.cl gpu_64cae04c83e7a1b941^54388e83e7a1b941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/sdeka/Documents/Projects/Microbenchmarks/gpu_6400348c7dddffdf42^1498"CreateBitcode mykernel.cl gpu_64    cd /Users/sdeka/Documents/Projects/Microbenchmarks    /System/Library/Frameworks/OpenCL.framework/Libraries/openclc -x cl -cl-std=CL1.1 -Os -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-generated-files-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-own-target-headers-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-all-target-headers-txt.hmap -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-project-headers-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/x86_64 -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources -F/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -arch gpu_64 -emit-llvm -c /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl -o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/OpenCL/mykernel.cl.gpu_64.bc36"A6970C8D-B8C9-470E-84B7-B99652873842-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+
+CCreateBitcode /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl i386
+s430040963.129609
+e430040963.470332
+r1
+xCreateBitcode
+x/Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"CreateBitcode mykernel.cl i38630"CreateBitcode mykernel.cl i38653412183e7a1b941^ba687883e7a1b941^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/sdeka/Documents/Projects/Microbenchmarks/i38600348c7dddffdf42^1492"CreateBitcode mykernel.cl i386    cd /Users/sdeka/Documents/Projects/Microbenchmarks    /System/Library/Frameworks/OpenCL.framework/Libraries/openclc -x cl -cl-std=CL1.1 -Os -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-generated-files-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-own-target-headers-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-all-target-headers-txt.hmap -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-project-headers-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/x86_64 -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources -F/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -arch i386 -emit-llvm -c /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl -o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/OpenCL/mykernel.cl.i386.bc36"BCAB23BF-5C21-480C-8BAF-233CD52B59D2-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+
+CCreateBitcode /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl x86_64
+s430040963.129902
+e430040963.454938
+r1
+xCreateBitcode
+x/Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"CreateBitcode mykernel.cl x86_6432"CreateBitcode mykernel.cl x86_64c1522183e7a1b941^ee777483e7a1b941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/sdeka/Documents/Projects/Microbenchmarks/x86_6400348c7dddffdf42^1498"CreateBitcode mykernel.cl x86_64    cd /Users/sdeka/Documents/Projects/Microbenchmarks    /System/Library/Frameworks/OpenCL.framework/Libraries/openclc -x cl -cl-std=CL1.1 -Os -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-generated-files-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-own-target-headers-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-all-target-headers-txt.hmap -iquote /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Arithmetic-project-headers-txt.hmap -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources/x86_64 -I/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/DerivedSources -F/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -arch x86_64 -emit-llvm -c /Users/sdeka/Documents/Projects/Microbenchmarks/mykernel.cl -o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/OpenCL/mykernel.cl.x86_64.bc36"D99154A5-4889-4B39-968C-3B1EAED07071-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+
+CLd /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/Arithmetic normal x86_64
+s430040963.694608
+e430040963.714697
+r1
+xLd
+x/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/Arithmetic
+xnormal
+xx86_64
+d/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/Arithmetic.LinkFileList
+d/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/utils.o
+d/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/mykernel.cl.o
+d/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_device.o
+d/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/main.o
+d/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/cl_platform.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenCL.framework/OpenCL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Link /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/Arithmetic48"Ld Build/Products/Debug/Arithmetic normal x86_64cedeb183e7a1b941^a1f7b683e7a1b941^---0#0#1#--1020"Ld Build/Products/Debug/Arithmetic normal x86_64    cd /Users/sdeka/Documents/Projects/Microbenchmarks    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -F/Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug -filelist /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/Arithmetic.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -framework OpenCL -Xlinker -dependency_info -Xlinker /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Intermediates/Microbenchmarks.build/Debug/Arithmetic.build/Objects-normal/x86_64/Arithmetic_dependency_info.dat -o /Users/sdeka/Documents/Projects/Microbenchmarks/Build/Products/Debug/Arithmetic36"81CEE75B-129F-4357-8968-A44F22A1C289-
+b487205EA-0398-4709-9AF6-ECC65D1B27E1
+

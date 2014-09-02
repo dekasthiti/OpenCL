@@ -10,6 +10,9 @@
 		675EF1CD198DD0FC00A0EA23 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675EF1CC198DD0FC00A0EA23 /* OpenCL.framework */; };
 		675EF1CE198DD14200A0EA23 /* mykernel.cl in Sources */ = {isa = PBXBuildFile; fileRef = 675EF1BC198DC87A00A0EA23 /* mykernel.cl */; };
 		675EF1CF198DD14200A0EA23 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675EF1BB198DC85A00A0EA23 /* main.cpp */; };
+		675EF1D4198EAC0800A0EA23 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675EF1D3198EAC0800A0EA23 /* utils.cpp */; };
+		675EF1D7198EB5BA00A0EA23 /* cl_platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675EF1D6198EB5BA00A0EA23 /* cl_platform.cpp */; };
+		675EF1DA198EB96C00A0EA23 /* cl_device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675EF1D9198EB96C00A0EA23 /* cl_device.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +33,12 @@
 		675EF1C1198DD09B00A0EA23 /* Arithmetic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arithmetic; sourceTree = BUILT_PRODUCTS_DIR; };
 		675EF1CC198DD0FC00A0EA23 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
 		675EF1D1198DDD2A00A0EA23 /* Metrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Metrics.h; sourceTree = "<group>"; };
+		675EF1D2198EABF600A0EA23 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		675EF1D3198EAC0800A0EA23 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		675EF1D5198EB36D00A0EA23 /* cl_platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cl_platform.h; sourceTree = "<group>"; };
+		675EF1D6198EB5BA00A0EA23 /* cl_platform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_platform.cpp; sourceTree = "<group>"; };
+		675EF1D8198EB92000A0EA23 /* cl_device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cl_device.h; sourceTree = "<group>"; };
+		675EF1D9198EB96C00A0EA23 /* cl_device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_device.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,9 @@
 			children = (
 				675EF1BC198DC87A00A0EA23 /* mykernel.cl */,
 				675EF1BB198DC85A00A0EA23 /* main.cpp */,
+				675EF1D3198EAC0800A0EA23 /* utils.cpp */,
+				675EF1D6198EB5BA00A0EA23 /* cl_platform.cpp */,
+				675EF1D9198EB96C00A0EA23 /* cl_device.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -75,6 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				675EF1D1198DDD2A00A0EA23 /* Metrics.h */,
+				675EF1D2198EABF600A0EA23 /* utils.h */,
+				675EF1D5198EB36D00A0EA23 /* cl_platform.h */,
+				675EF1D8198EB92000A0EA23 /* cl_device.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -129,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				675EF1D4198EAC0800A0EA23 /* utils.cpp in Sources */,
 				675EF1CE198DD14200A0EA23 /* mykernel.cl in Sources */,
+				675EF1DA198EB96C00A0EA23 /* cl_device.cpp in Sources */,
 				675EF1CF198DD14200A0EA23 /* main.cpp in Sources */,
+				675EF1D7198EB5BA00A0EA23 /* cl_platform.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,12 +158,14 @@
 		675EF1B8198DC7CC00A0EA23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OPENCL_FAST_RELAXED_MATH = NO;
 			};
 			name = Debug;
 		};
 		675EF1B9198DC7CC00A0EA23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OPENCL_FAST_RELAXED_MATH = NO;
 			};
 			name = Release;
 		};
@@ -173,6 +193,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"PROFILE_RUN=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -209,6 +230,8 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "PROFILE_RUN=1";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -216,6 +239,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -240,6 +264,7 @@
 				675EF1CA198DD09B00A0EA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
